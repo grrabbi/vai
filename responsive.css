@@ -1,0 +1,83 @@
+/* Small devices (0-570px)  Mobile Device*/
+
+@media (max-width: 570px) {
+    .top-Navbar {
+        background-color: #101e3f;
+        width: 100%;
+        height: 51px;
+        box-shadow: 0px 2px 12px 0px #192dff;
+    }
+    .nav-item .nav-link.active {
+        color: #000000 !important;
+    }
+    .nav-item .nav-link {
+        color: #1a29c4;
+    }
+    .navbar-brand img {
+        width: 137px;
+        height: 42px;
+        margin-left: -7px;
+    }
+    .navbar-toggler {
+        background-color: #2563eb;
+    }
+}
+
+
+/* Medium devices (570px - 768px) Teb Device*/
+
+@media (min-width: 570px) and (max-width: 768px) {
+    .nav-item .nav-link.active {
+        color: #000000 !important;
+    }
+    .nav-item .nav-link {
+        color: #192dff;
+    }
+    .navbar-toggler {
+        background-color: #2563eb;
+    }
+    .search-bar input {
+        width: 200px;
+    }
+    section .top-text h1 {
+        font-size: 2rem;
+    }
+    section .top-text p {
+        font-size: 1rem;
+    }
+}
+
+
+/* Large devices (768px - 992px)  Laptop Device*/
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-expand-lg {
+        padding: 0px;
+    }
+    .nav-item .nav-link.active {
+        color: #000000 !important;
+    }
+    .nav-item .nav-link {
+        color: #192dff;
+    }
+    .navbar-toggler {
+        background-color: #2563eb;
+    }
+}
+
+
+/* Extra large devices (992px and above)  Computer Device*/
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        padding: 0px;
+    }
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1450px;
+    }
+}
